@@ -1,9 +1,4 @@
 # PhotoBot
 
 
-To add your bot token add this code to the App.config file
-
-  "<appSettings>
-    <!-- specify your bot token here -->
-    <add key="token" value=""/>
-  </appSettings>"
+To add your bot token add it to the App.config file

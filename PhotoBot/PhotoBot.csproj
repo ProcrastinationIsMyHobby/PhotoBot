@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bot.cs" />
+    <Compile Include="Commands\CatCommand.cs" />
     <Compile Include="Commands\Command.cs" />
     <Compile Include="Commands\SomeCommand.cs" />
     <Compile Include="Program.cs" />

@@ -12,10 +12,9 @@ namespace PhotoBot.Commands
         {
             var chatId = message.Chat.Id;
             var messageId = message.MessageId;
+            //TODO: Command logic
 
-            //TODO: Command logic -_-
-
-            await client.SendTextMessageAsync(chatId, "Привет, последняя новость, оказывается у Коли мамаша проститутка", replyToMessageId: messageId);
+            await client.SendTextMessageAsync(chatId, "Привет", replyToMessageId: messageId);
         }
     }
 }
